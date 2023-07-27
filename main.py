@@ -33,7 +33,9 @@ async def predict(file: UploadFile = File()):
     plt.imshow(img_reduced_transformed)
     plt.show()
     
+
     #prediction = MODEL.predict([...])
+
 
     return {"prediction": 'prediction'}
 
