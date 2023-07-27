@@ -11,6 +11,7 @@ from tensorflow.keras.utils import img_to_array, array_to_img
 
 #MODEL = tf.keras.models.load_model('model/')
 
+
 app = FastAPI()
 
 
@@ -32,7 +33,9 @@ async def predict(file: UploadFile = File()):
     plt.imshow(img_reduced_transformed)
     plt.show()
     
+
     #prediction = MODEL.predict([...])
+
 
     return {"prediction": 'prediction'}
 
