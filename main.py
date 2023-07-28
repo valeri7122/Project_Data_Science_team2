@@ -1,14 +1,15 @@
 from fastapi import FastAPI, File, UploadFile
 from model.components import predict, read_imagefile
 import uvicorn
+from fastapi.responses import FileResponse, HTMLResponse
 
 
 app = FastAPI()
 
 
-@app.get('/')
+@app.get("/")
 async def index():
-    return {"Message": "Welcome to Neural Network"}
+    return FileResponse("static/index.html")
 
 
 @app.post('/predict/image')
@@ -19,6 +20,15 @@ async def predict_api(file: UploadFile = File(...)):
     image = read_imagefile(await file.read())
     prediction = predict(image)
 
+    pred = f"<h2>{prediction}</h2>"
+
+    return HTMLResponse(content=pred)
+
+    return prediction
+
+
+if __name__ == '__main__':
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
     return prediction
 
 
