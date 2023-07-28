@@ -1,14 +1,21 @@
 from fastapi import FastAPI, File, UploadFile
 from model.components import predict, read_imagefile
 import uvicorn
+from fastapi.responses import FileResponse, HTMLResponse
+from fastapi.staticfiles import StaticFiles
+
 
 
 app = FastAPI()
 
 
-@app.get('/')
+
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
+
+@app.get("/")
 async def index():
-    return {"Message": "Welcome to Neural Network"}
+    return FileResponse("static/index.html")
 
 
 @app.post('/predict/image')
