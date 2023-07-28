@@ -1,15 +1,45 @@
-										<!--Головна сторінка сайту-->
+<!--Головна сторінка сайту-->
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<form action="/predict/image" enctype="multipart/form-data" method="post">
-    <input type="file" name="file">
-    <input type="submit" value="Submit">
-</form>
-</body>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Convolutional Neural Network</title>	
+		<link rel="stylesheet" href="http://127.0.0.1:8000/static/styles/styles.css">		
+	</head>
+
+	<body>
+	
+		<div id="block1">
+			<audio controls autoplay loop>
+				<source src="http://127.0.0.1:8000/static/audio/kalyna.mp3" type="audio/mpeg">
+				Ваш браузер не підтримує елемент audio.
+			</audio>
+		</div>	
+		
+		<div id="block2">
+			<h1>Convolutional Neural Network</h1>
+		</div>
+			
+		<div id="block3">
+		</div>
+		
+		<div id="block4">
+		</div>
+		
+		<div id="block5">
+			<form action="/predict/image" enctype="multipart/form-data" method="post">
+				<input type="file" name="file">
+				<input type="submit" value="Submit">
+			</form>		
+		</div>				
+
+		<div id="block6">
+			<img class="pos2 cross" src="http://127.0.0.1:8000/static/images/1.jpg"alt="Штучний інтилект"/>
+			<img class="pos2 cross" src="http://127.0.0.1:8000/static/images/2.jpg"alt="Комп'ютер"/>
+			<img class="pos2 cross" src="http://127.0.0.1:8000/static/images/3.jpg"alt="Освіта"/>				
+		</div>	
+		
+	</body>
+	
 </html>
