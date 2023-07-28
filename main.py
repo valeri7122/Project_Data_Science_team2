@@ -1,14 +1,8 @@
-import uvicorn
-import tensorflow as tf
 from fastapi import FastAPI, File, UploadFile
-import numpy as np
+from model.components import predict, read_imagefile
 import uvicorn
-from matplotlib import image
-from matplotlib import pyplot as plt
-from tensorflow.keras.utils import img_to_array, array_to_img
 
 from model.components import predict, read_imagefile
-
 
 app = FastAPI()
 
