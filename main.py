@@ -1,43 +1,28 @@
-import uvicorn
-import tensorflow as tf
 from fastapi import FastAPI, File, UploadFile
-import numpy as np
+from model.components import predict, read_imagefile
 import uvicorn
-from matplotlib import image
-from matplotlib import pyplot as plt
-from tensorflow.keras.utils import img_to_array, array_to_img
 
 
 
 #MODEL = tf.keras.models.load_model('model/')
 
-
 app = FastAPI()
-
 
 
 @app.get('/')
 async def index():
     return {"Message": "Welcome to Neural Network"}
 
-@app.post('/predict/')
-async def predict(file: UploadFile = File()):
 
-    with open(file.filename, "wb") as f:
-        f.write(await file.read())
+@app.post('/predict/image')
+async def predict_api(file: UploadFile = File(...)):
+    extension = file.filename.split(".")[-1] in ("jpg", "jpeg", "png")
+    if not extension:
+        return "Image must be jpg or png format!"
+    image = read_imagefile(await file.read())
+    prediction = predict(image)
 
-    img = image.imread(file.filename)
-    img_reduced = array_to_img(img, scale=False).resize((32,32))
-    img_reduced_transformed = (img_to_array(img_reduced).astype('float32')/255)
-
-    plt.imshow(img_reduced_transformed)
-    plt.show()
-    
-
-    #prediction = MODEL.predict([...])
-
-
-    return {"prediction": 'prediction'}
+    return prediction
 
 
 if __name__ == '__main__':
