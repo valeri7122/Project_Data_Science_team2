@@ -2,9 +2,7 @@ from fastapi import FastAPI, File, UploadFile
 from model.components import predict, read_imagefile
 import uvicorn
 
-
-
-#MODEL = tf.keras.models.load_model('model/')
+from model.components import predict, read_imagefile
 
 app = FastAPI()
 
