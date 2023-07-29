@@ -1,3 +1,4 @@
+import keras
 import numpy as np
 
 from io import BytesIO
@@ -13,16 +14,8 @@ class_names = ['Airplane', 'Automobile', 'Bird', 'Cat', 'Deer', 'Dog', 'Frog', '
 
 
 def load_model():
-    conv_base = VGG16(weights='imagenet', include_top=False, input_shape=(32, 32, 3))
-    conv_base.trainable = False
-
-    model = Sequential()
-    model.add(conv_base)
-    model.add(Flatten())
-    model.add(Dense(256, activation='relu', name='hidden_1'))
-    model.add(Dense(10, activation='softmax', name='predictions'))
-    if filepath:
-        model.load_weights(filepath)
+    model = keras.models.load_model(filepath)
+    
     return model
 
 
