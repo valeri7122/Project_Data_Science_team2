@@ -5,7 +5,6 @@ from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
 
-
 app = FastAPI()
 
 
