@@ -6,7 +6,6 @@ from fastapi.staticfiles import StaticFiles
 
 
 
-
 app = FastAPI()
 
 
@@ -15,6 +14,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/")
 async def index():
+
     return FileResponse("static/index.html")
 
 
@@ -27,7 +27,6 @@ async def predict_api(file: UploadFile = File(...)):
     prediction = predict(image)
 
     return prediction
-
 
 
 if __name__ == '__main__':
