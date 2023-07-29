@@ -98,9 +98,9 @@ docker run -p 5000:5000 cifar-10-cnn
 
 ## Автори
 
-**Валерій Третяков**  
-GitHub: [Valeri](https://github.com/valeri7122)
-LinkedIn: [Валерій Третяков](https://www.linkedin.com/in/валерій-третяков-512a9a275/)
+**Сергій Підкопай**  
+GitHub: [SSP0d](https://github.com/SSP0d)  
+LinkedIn: [Serhii Pidkopai](https://www.linkedin.com/in/serhii-pidkopai-1734b7243/)
 
 **Сергій Підкопай**  
 GitHub: [SSP0d](https://github.com/SSP0d)  
