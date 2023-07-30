@@ -94,7 +94,12 @@ LinkedIn: [Валерій Третяков](https://www.linkedin.com/in/вале
 
 **Сергій Підкопай**  
 GitHub: [SSP0d](https://github.com/SSP0d)  
-LinkedIn: [Serhii Pidkopai](https://www.linkedin.com/in/serhii-pidkopai-1734b7243/)  
+LinkedIn: [Serhii Pidkopai](https://www.linkedin.com/in/serhii-pidkopai-1734b7243/)
+
+**Микола Присташ**
+Mykola Prystash  
+GitHub: [Sunriseuk](https://github.com/Sunriseuk)  
+LinkedIn:
 
 ## Ліцензія
 Цей проєкт має ліцензію MIT - дивись LICENSE файл для деталей.
