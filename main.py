@@ -25,7 +25,6 @@ async def predict_api(file: UploadFile = File(...)):
         return "Image must be jpg or png format!"
     image = read_imagefile(await file.read())
     prediction = predict(image)
-
     pred = f"<h2>{prediction}</h2>"
 
     return HTMLResponse(content=pred)
