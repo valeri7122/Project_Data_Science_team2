@@ -1,4 +1,4 @@
-/* CSS-БЛОКИ */
+* CSS-БЛОКИ */
 
 #block1 {
 	position: absolute;
@@ -7,6 +7,7 @@
 	padding: 0.1% 0.1% 0.1% 0.1%;
 	margin-left: 0.5%;
 }
+
 #block2 {
 	position: relative;
 	top: 140px;
@@ -15,6 +16,7 @@
 	margin-left: 50px;
 	margin-right: 50px;
 }
+
 #block3 {
 	position: relative;
 	top: 160px;
@@ -42,6 +44,7 @@
 	display: inline-block;
 	margin-left: 1px;
 }
+
 #block6 {
 	position: relative;
 	top: 180px;
@@ -49,12 +52,6 @@
 	padding: 0.1% 10% 0.1% 10%;
 	margin-left: 170px;
 	margin-right: 170px;
-}
-
-.pos2 {
-	width: 200px;
-	height: 260px; 
-	align: middle;
 }
 
 
@@ -71,23 +68,30 @@ h1 {
 	line-height: 1%;
 	/* Параметри тіні */
 	text-shadow: 10px 10px 20px black, 0 0 1em #000066;
-	}
-	
-	h2 {
-	font-family: font-family: sans-serif;
-	font-size: 220%;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 500%;
 	color: blue;
 	text-align: center;
 	text-transform: uppercase;
-	}
-	
-	h3 {
+}
+
+h3 {
 	font-family: "Arial";
 	font-size: 150%;
 	color: red;
 	text-align: center;
 	text-transform: uppercase;
-	}
+}
+
+
+.pos2 {
+	width: 200px;
+	height: 260px; 
+	align: middle;
+}
 
 
 /* CSS-МАЛЮНКИ */
@@ -111,12 +115,9 @@ body {
 
 /* Шрифт */
 p { 
-	font-family: Arial , Helvetica, sans-serif; "Times New Roman";
+	font-family: Arial , Helvetica, sans-serif;
 	font-size: 200%;
 	
 /* Відступ абзацу  */
 	text-indent: 5%;
 }
-
-
-
