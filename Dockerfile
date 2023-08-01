@@ -19,4 +19,3 @@ EXPOSE 8000
 
 # Запустимо наш застосунок всередині контейнера
 CMD ["python", "main.py", "uvicorn.run", "0.0.0.0:8000"]
-CMD ["python", "telegram_bot.py", "bot.polling"]
