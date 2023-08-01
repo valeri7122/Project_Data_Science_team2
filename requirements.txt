@@ -31,3 +31,4 @@ virtualenv
 virtualenv-clone
 websocket-client
 websockets
+keras
