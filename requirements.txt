@@ -21,6 +21,7 @@ tensorboard
 tensorboard-data-server
 tensorflow
 tensorflow-estimator
+python-multipart
 tensorflow-intel
 tensorflow-io-gcs-filesystem
 tomlkit
