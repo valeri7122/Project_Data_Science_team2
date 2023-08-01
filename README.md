@@ -8,13 +8,13 @@
 1. Клонуйте репозиторій:
 
 ```
-git clone https://github.com/your-username/cifar-10-cnn.git
+git clone https://github.com/valeri7122/Project_Data_Science_team2.git
 ```
 
 2. Перейдіть до директорії проєкту:
 
 ```
-cd cifar-10-cnn
+cd Project_Data_Science_team2
 ```
 
 3. Встановіть необхідні залежності:
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 4. Запустіть веб-інтерфейс:
 
 ```
-python app.py
+python main.py
 ```
 
 ## Використання
@@ -71,19 +71,19 @@ http://localhost:8000
 Даний проєкт є контейнеризованим в Docker. Ви можете побудувати контейнерний образ самостійно за допомогою команди:
 
 ```
-docker build -t cifar-10-cnn .
+docker build -t Project_Data_Science_team2 .
 ```
 
 Або завантажити готовий образ з DockerHub:
 
 ```
-docker pull username/cifar-10-cnn
+docker pull username/Project_Data_Science_team2
 ```
 
 Для запуску контейнера:
 
 ```
-docker run -p 5000:5000 cifar-10-cnn
+docker run -p 5000:5000 Project_Data_Science_team2
 ```
 
 ## Вкладення
