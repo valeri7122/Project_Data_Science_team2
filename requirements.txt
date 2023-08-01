@@ -33,3 +33,4 @@ websocket-client
 websockets
 keras
 uvicorn[standard]
+telebot
