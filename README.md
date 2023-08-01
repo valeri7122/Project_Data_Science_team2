@@ -111,6 +111,10 @@ Mykola Prystash
 GitHub: [Sunriseuk](https://github.com/Sunriseuk)  
 LinkedIn:
 
+**Василь Глущенко**  
+GitHub: [Vasyl-Hlushchenko](https://github.com/Vasyl-Hlushchenko)  
+LinkedIn: [Vasiliy Hlushchenko](https://www.linkedin.com/in/vasiliy-hlushchenko/)
+
 ## Ліцензія
 
 Цей проєкт має ліцензію MIT - дивись LICENSE файл для деталей.
