@@ -118,7 +118,7 @@ LinkedIn: [Vasiliy Hlushchenko](https://www.linkedin.com/in/vasiliy-hlushchenko/
 
 **Василь Глущенко**  
 GitHub: [Vasyl-Hlushchenko](https://github.com/Vasyl-Hlushchenko)  
-LinkedIn: [Serhii Pidkopai](https://www.linkedin.com/in/vasiliy-hlushchenko/)
+LinkedIn: [Vasiliy Hlushchenko](https://www.linkedin.com/in/vasiliy-hlushchenko/)
 
 ## Ліцензія
 
