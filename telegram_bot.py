@@ -8,7 +8,12 @@ bot = telebot.TeleBot(config.token)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-    bot.reply_to(message, "Welcome to Neural Network Bot!\nSend me an image and I will classify it for you.")
+    bot.reply_to(message,
+                 "Welcome to Neural Network Bot!\n"
+                 "Send me an image and I will classify it for you.\n"
+                 "Now I can recognize such classes as:"
+                 " Airplane, automobile, bird, cat, deer, dog, frog, horse, ship and truck"
+                 )
 
 
 @bot.message_handler(content_types=['photo'])
