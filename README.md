@@ -60,9 +60,11 @@ http://localhost:8000
 
 ## Результати
 
-Графік точності та втрат
+Графік точності  
+![Image](https://github.com/SSP0d/source/blob/main/Accuracy.png)
 
---тут повинен бути графік---
+Графік втрат  
+![Image](https://github.com/SSP0d/source/blob/main/Loss.png)  
 
 Графік показує точність та втрати моделі на тренувальних, тестових та валідаційних даних протягом навчання.
 
@@ -86,14 +88,33 @@ docker pull username/Project_Data_Science_team2
 docker run -p 5000:5000 Project_Data_Science_team2
 ```
 
+## Telegram бот
+
+Для зручності використання додана можливість використання Telegram бота.
+
+Запустіть
+
+```
+python telegram_bot.py
+```
+
+Перейдіть за посиланням
+
+```
+https://t.me/PicRec_AI_bot
+```
+
+Завантажте зображення та отримайте результат класиіфкації
+
 ## Вкладення
 
 ### Проєкт містить:
 
-- app.py: Веб-інтерфейс для класифікації зображень
-- cifar10_cnn.ipynb: Ноутбук з кодом нейромережі та навчанням
+- main.py: Веб-інтерфейс для класифікації зображень
+- model.ipynb: Ноутбук з кодом нейромережі та навчанням
 - weights.h5: Збережені ваги навченої моделі
 - requirements.txt: Залежності проєкту
+- telegram_bot.py Telegram бот
 - README.md: Цей файл
 
 ## Автори
