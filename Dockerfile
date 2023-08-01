@@ -18,4 +18,5 @@ RUN pip install -r requirements.txt
 EXPOSE 8000
 
 # Запустимо наш застосунок всередині контейнера
-CMD ["python", "main.py", "uvicorn.run", "0.0.0.0:8000", "telegram_bot.py", "bot.polling"]
+#CMD ["python", "main.py", "uvicorn.run", "0.0.0.0:8000"]
+CMD ["python", "telegram_bot.py", "bot.polling"]
