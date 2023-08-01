@@ -18,6 +18,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8000
 
 # Запустимо наш застосунок всередині контейнера
-#ENTRYPOINT ["python", "main.py"]
-
 CMD ["python", "main.py", "uvicorn.run", "0.0.0.0:8000"]
