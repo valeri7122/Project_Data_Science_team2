@@ -11,12 +11,29 @@ class_names = ['Airplane', 'Automobile', 'Bird', 'Cat', 'Deer', 'Dog', 'Frog', '
 
 
 def load_model():
+    """
+    The load_model function loads the model from a filepath.
+        
+        Args:
+            None.
+            
+        Returns: 
+            The loaded model.
+    
+    :return: The model
+    """
     model = keras.models.load_model(filepath)
     
     return model
 
 
 def predict(image: Image.Image):
+    """
+    The predict function takes an image and returns a string with the predicted class.
+    
+    :param image: Image.Image: Pass the image to the predict function
+    :return: A string
+    """
     global model
     if model is None:
         model = load_model()
@@ -32,6 +49,12 @@ def predict(image: Image.Image):
 
 
 def read_imagefile(file) -> Image.Image:
+    """
+    The read_imagefile function takes a file object and returns an Image.Image object.
+    
+    :param file: Read the image file
+    :return: A pil
+    """
     image = Image.open(BytesIO(file))
 
     return image
