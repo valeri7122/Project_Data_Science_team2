@@ -116,6 +116,10 @@ Vasyl Hlushchenko
 GitHub: [Vasyl-Hlushchenko](https://github.com/Vasyl-Hlushchenko). 
 LinkedIn: [Vasiliy Hlushchenko](https://www.linkedin.com/in/vasiliy-hlushchenko/)
 
+**Сергій Підкопай**  
+GitHub: [SSP0d](https://github.com/SSP0d)  
+LinkedIn: [Serhii Pidkopai](https://www.linkedin.com/in/serhii-pidkopai-1734b7243/)
+
 ## Ліцензія
 
 Цей проєкт має ліцензію MIT - дивись LICENSE файл для деталей.
