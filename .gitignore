@@ -20,6 +20,7 @@ site_build
 venv
 docs.zip
 archive.zip
+config.py
 
 # vim temporary files
 *~
