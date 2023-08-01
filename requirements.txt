@@ -11,5 +11,5 @@ Pillow
 scipy
 jupyter
 pandas
-uvicorn[standard]
+
 
