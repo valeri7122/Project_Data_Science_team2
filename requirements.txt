@@ -2,7 +2,6 @@ fastapi
 pandas
 numpy
 matplotlib
-uvicor
 scikit-learn
 seaborn
 pillow
