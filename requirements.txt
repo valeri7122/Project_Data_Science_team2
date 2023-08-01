@@ -11,5 +11,4 @@ Pillow
 scipy
 jupyter
 pandas
-
-
+python-multipart
