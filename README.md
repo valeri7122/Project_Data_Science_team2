@@ -111,11 +111,6 @@ Mykola Prystash
 GitHub: [Sunriseuk](https://github.com/Sunriseuk)  
 LinkedIn:
 
-**Василь Глущенко**
-Vasyl Hlushchenko
-GitHub: [Vasyl-Hlushchenko](https://github.com/Vasyl-Hlushchenko). 
-LinkedIn: [Vasiliy Hlushchenko](https://www.linkedin.com/in/vasiliy-hlushchenko/)
-
 **Василь Глущенко**  
 GitHub: [Vasyl-Hlushchenko](https://github.com/Vasyl-Hlushchenko)  
 LinkedIn: [Vasiliy Hlushchenko](https://www.linkedin.com/in/vasiliy-hlushchenko/)
