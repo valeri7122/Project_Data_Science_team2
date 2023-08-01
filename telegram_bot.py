@@ -2,7 +2,6 @@ import config
 import telebot
 from model.components import predict, read_imagefile
 
-
 bot = telebot.TeleBot(config.token)
 
 
@@ -31,6 +30,7 @@ def handle_photo(message):
         bot.reply_to(message, f"{prediction}")
     except Exception as e:
         bot.reply_to(message, f"Error: {e}")
+
 
 if __name__ == '__main__':
     bot.polling()
