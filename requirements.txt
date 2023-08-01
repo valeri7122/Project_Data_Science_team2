@@ -11,4 +11,4 @@ scipy
 jupyter
 pandas
 uvicorn
-
+python-multipart
