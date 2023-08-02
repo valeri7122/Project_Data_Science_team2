@@ -1,0 +1,46 @@
+							<!--Головна сторінка сайту-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Convolutional Neural Network</title>	
+		<link rel="stylesheet" href="/static/styles/styles.css">	
+	</head>
+	<body>
+		<div id="block1">
+			<audio controls autoplay loop>			
+				<source src="/static/audio/kalyna.mp3" type="audio/mpeg">
+				Ваш браузер не підтримує елемент audio.
+			</audio>
+		</div>	
+		<div id="block2">
+			<h1>Convolutional Neural Network</h1>
+		</div>
+		<div id="block3">
+			<a href="https://t.me/PicRec_AI_bot" target="_blank"><h2>Telegram-bot</h2></a>
+		</div>
+		<div id="block4">
+			<form action="/predict/image" enctype="multipart/form-data" method="post">
+				<label for="file">Choose File</label>
+				<input type="file" name="file">
+				<input type="submit" value="Classify">
+			</form>		
+		</div>				
+		<div id="block5">
+			<img class="pos2" src="/static/images/car.jpg" alt="Автомобіль">
+			<img class="pos2" src="/static/images/truck.jpg" alt="Вантажівка">
+			<img class="pos2" src="/static/images/plane.jpg" alt="Літак">
+			<img class="pos2" src="/static/images/ship.jpg" alt="Корабель">
+			<img class="pos2" src="/static/images/bird.jpg" alt="Птах">				
+		</div>
+		<div id="block6">				
+			<img class="pos2" src="/static/images/dog.jpg" alt="Собака">
+			<img class="pos2" src="/static/images/cat.jpg" alt="Кіт">
+			<img class="pos2" src="/static/images/horse.jpg" alt="Кінь">
+			<img class="pos2" src="/static/images/frog.jpg" alt="Жаба">
+			<img class="pos2" src="/static/images/deer.jpg" alt="Олень">
+		</div>		
+	</body>
+</html>
