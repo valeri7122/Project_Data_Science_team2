@@ -1,6 +1,6 @@
 # Згорткова нейронна мережа для класифікації зображень (CIFAR-10)
 
-![Image](https://raw.githubusercontent.com/SSP0d/source/main/applsci-12-12873-g001.webp)
+![Image](https://raw.githubusercontent.com/SSP0d/source/main/logo.webp)
 Цей проєкт представляє собою згорткову нейронну мережу для класифікації зображень з використанням датасету CIFAR-10. Метою проєкту є навчання моделі розпізнавати 10 класів зображень (літаки, автомобілі, птахи, коти, олені, собаки, жаби, коні, кораблі та вантажівки) та реалізація веб-інтерфейсу для її використання.
 
 ## Встановлення
@@ -8,13 +8,13 @@
 1. Клонуйте репозиторій:
 
 ```
-git clone https://github.com/your-username/cifar-10-cnn.git
+git clone https://github.com/valeri7122/Project_Data_Science_team2.git
 ```
 
 2. Перейдіть до директорії проєкту:
 
 ```
-cd cifar-10-cnn
+cd Project_Data_Science_team2
 ```
 
 3. Встановіть необхідні залежності:
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 4. Запустіть веб-інтерфейс:
 
 ```
-python app.py
+python main.py
 ```
 
 ## Використання
@@ -60,9 +60,11 @@ http://localhost:8000
 
 ## Результати
 
-Графік точності та втрат
+Графік точності  
+![Image](https://github.com/SSP0d/source/blob/main/Accuracy.png)
 
---тут повинен бути графік---
+Графік втрат  
+![Image](https://github.com/SSP0d/source/blob/main/Loss.png)  
 
 Графік показує точність та втрати моделі на тренувальних, тестових та валідаційних даних протягом навчання.
 
@@ -71,29 +73,48 @@ http://localhost:8000
 Даний проєкт є контейнеризованим в Docker. Ви можете побудувати контейнерний образ самостійно за допомогою команди:
 
 ```
-docker build -t cifar-10-cnn .
+docker build -t Project_Data_Science_team2 .
 ```
 
 Або завантажити готовий образ з DockerHub:
 
 ```
-docker pull username/cifar-10-cnn
+docker pull username/Project_Data_Science_team2
 ```
 
 Для запуску контейнера:
 
 ```
-docker run -p 5000:5000 cifar-10-cnn
+docker run -p 5000:5000 Project_Data_Science_team2
 ```
+
+## Telegram бот
+
+Для зручності використання додана можливість використання Telegram бота.
+
+Запустіть
+
+```
+python telegram_bot.py
+```
+
+Перейдіть за посиланням
+
+```
+https://t.me/PicRec_AI_bot
+```
+
+Завантажте зображення та отримайте результат класиіфкації
 
 ## Вкладення
 
 ### Проєкт містить:
 
-- app.py: Веб-інтерфейс для класифікації зображень
-- cifar10_cnn.ipynb: Ноутбук з кодом нейромережі та навчанням
+- main.py: Веб-інтерфейс для класифікації зображень
+- model.ipynb: Ноутбук з кодом нейромережі та навчанням
 - weights.h5: Збережені ваги навченої моделі
 - requirements.txt: Залежності проєкту
+- telegram_bot.py Telegram бот
 - README.md: Цей файл
 
 ## Автори
@@ -110,6 +131,10 @@ LinkedIn: [Serhii Pidkopai](https://www.linkedin.com/in/serhii-pidkopai-1734b724
 Mykola Prystash  
 GitHub: [Sunriseuk](https://github.com/Sunriseuk)  
 LinkedIn:
+
+**Василь Глущенко**  
+GitHub: [Vasyl-Hlushchenko](https://github.com/Vasyl-Hlushchenko)  
+LinkedIn: [Vasiliy Hlushchenko](https://www.linkedin.com/in/vasiliy-hlushchenko/)
 
 ## Ліцензія
 

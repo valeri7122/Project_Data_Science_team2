@@ -10,50 +10,42 @@
 
 #block2 {
 	position: relative;
-	top: 140px;
+	top: 1px;
 	background-color: #87CEEB;
 	padding: 0.5% 0.5%;
+	text-align: center;
 	margin-left: 50px;
 	margin-right: 50px;
 }
 
 #block3 {
 	position: relative;
-	top: 160px;
+	top: 10px;
 	background-color: #87CEEB;
 	padding: 0.1% 0.1% 0.1% 0.1%;
 	text-align: center;
-	display: inline-block;
 	margin-left: 30%;
+	margin-right: 30%;
 }
+
 #block4 {
 	position: relative;
-	top: 160px;
+	top: 15px;
 	background-color: #87CEEB;
 	padding: 0.1% 0.1% 0.1% 0.1%;
-	text-align: center;	
-	display: inline-block;
-	margin-left: 1px;
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
 }
+
 #block5 {
-	position: relative;
-	top: 160px;
+	position: absolute;
+	top: 290px;
 	background-color: #87CEEB;
 	padding: 0.1% 0.1% 0.1% 0.1%;
-	text-align: center;	
-	display: inline-block;
-	margin-left: 1px;
+	margin-left:  30%;
+	margin-right: 30%;
 }
-
-#block6 {
-	position: relative;
-	top: 180px;
-	background-color: #87CEEB;
-	padding: 0.1% 10% 0.1% 10%;
-	margin-left: 170px;
-	margin-right: 170px;
-}
-
 
 /* CSS-РЯДКИ */
 
@@ -72,7 +64,7 @@ h1 {
 
 h2 {
 	font-family: sans-serif;
-	font-size: 500%;
+	font-size: 150%;
 	color: blue;
 	text-align: center;
 	text-transform: uppercase;
@@ -87,23 +79,28 @@ h3 {
 }
 
 
-.pos2 {
-	width: 200px;
-	height: 260px; 
-	align: middle;
-}
-
-
 /* CSS-МАЛЮНКИ */
 
-/* Велике фото */
-img.large {width: 500px; height: 500px;}
+.pos2 {
+	width: 300px;
+	height: 300px; 
 
-/* Середнє фото */
-img.medium {width: 245px; height: 245px;}
+}
 
-/* Маленьке фото */
-img.small {width: 100px; height: 100px;}	
+figure {
+	border: 1px solid #245488;
+	padding: 1px;
+	min-width: 1px;
+  }
+  
+  figcaption {
+	text-align: center;
+	background-color: #bac8d6;
+  }
+  
+  img {
+	width: 100%;
+  } 
 
 
 /* CSS-ТЕКСТ */

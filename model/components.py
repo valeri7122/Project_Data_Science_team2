@@ -7,7 +7,7 @@ from PIL import Image
 
 model = None
 filepath = "model/weights.h5"
-class_names = ['Airplane', 'Automobile', 'Bird', 'Cat', 'Deer', 'Dog', 'Frog', 'Horse', 'Ship', 'Truck']
+class_names = ['Літак', 'Автомобіль', 'Птах', 'Кіт', 'Олень', 'Собака', 'Жаба', 'Кінь', 'Корабель', 'Вантажівка']
 
 
 def load_model():
