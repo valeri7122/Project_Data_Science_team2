@@ -21,9 +21,6 @@ async def index():
 
     :return: A fileresponse object
     """
-    for file in os.scandir('static/upload'):
-        os.remove(file.path)
-        
     return FileResponse("static/index.html")
 
 
@@ -36,6 +33,8 @@ async def predict_api(file: UploadFile = File(...)):
     :param file: UploadFile: Get the uploaded file from the user
     :return: A string that is the predicted class
     """
+    for f in os.scandir('static/upload'):
+        os.remove(f.path)
     extension = file.filename.split(".")[-1] in ("jpg", "jpeg", "png")
     if not extension:
         raise HTTPException(
