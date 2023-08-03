@@ -4,6 +4,7 @@ import uvicorn
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from html_respons import response
+import os
 
 
 app = FastAPI()
@@ -14,7 +15,15 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/")
 async def index():
+    """
+    The index function is a simple function that returns the index.html file
+        from the static directory. This is used to serve up our web page.
 
+    :return: A fileresponse object
+    """
+    for file in os.scandir('static/upload'):
+        os.remove(file.path)
+        
     return FileResponse("static/index.html")
 
 
