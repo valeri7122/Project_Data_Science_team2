@@ -39,9 +39,21 @@ async def predict_api(file: UploadFile = File(...)):
     
     image = read_imagefile(await file.read())
     prediction = predict(image)
-    pred = f"<h2>{prediction}</h2>"
-    
-    return HTMLResponse(content=pred)
+    pred = f"""
+        <html>
+            <head>
+                <title>Image prediction</title>
+            </head>
+	        <body bgcolor=blue>
+            	<br/><br/>
+            	<input type="button" onclick="history.back();" value="Повернутись на головну сторінку"/>
+                <br/><br/><br/><br/><br/><br/><br/><br/>
+		        <h1 align="center"><font size="10" color=yellow face="Arial">{prediction}</font></h1>
+            </body>
+        </html>
+        """
+
+    return HTMLResponse(content=pred, status_code=200)
 
 
 if __name__ == '__main__':
