@@ -26,17 +26,17 @@ async def predict_api(file: UploadFile = File(...)):
     prediction = predict(image)
     pred = f"""
 	    <html>
-            <head>
-                <title>Image prediction</title>
-            </head>
-	        <body bgcolor=blue>
-        		<br/><br/>
-        		<input type="button" onclick="history.back();" value="Повернутись на головну сторінку"/>
-        		<br/><br/><br/><br/><br/><br/><br/><br/>
-        		<h1 align="center"><font size="10" color=yellow face="Arial">{prediction}</font></h1>
-            </body>
-        </html>
-        """
+            	<head>
+                    <title>Image prediction</title>
+            	</head>
+	    	<body bgcolor=blue>
+		    <br/><br/>
+		    <input type="button" onclick="history.back();" value="Повернутись на головну сторінку"/>
+		    <br/><br/><br/><br/><br/><br/><br/><br/>
+		    <h1 align="center"><font size="10" color=yellow face="Arial">{prediction}</font></h1>
+            	</body>
+            </html>
+	    """
 
     return HTMLResponse(content=pred, status_code=200)
 
