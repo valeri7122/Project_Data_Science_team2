@@ -3,7 +3,7 @@ from model.components import predict, read_imagefile
 import uvicorn
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
-from html_respons import response
+from html_response import response
 import os
 
 
