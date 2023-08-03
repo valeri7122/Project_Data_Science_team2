@@ -20,6 +20,8 @@ async def index():
 
     :return: A fileresponse object
     """
+    for file in os.scandir('static/upload'):
+        os.remove(file.path)
     return FileResponse("static/index.html")
 
 
