@@ -15,5 +15,5 @@ RUN pip install --upgrade pip && \
 EXPOSE 8000
 
 # Запустимо наш застосунок та telegram_bot у контейнері з обробкою сигналів SIGINT
-CMD ["sh", "-c", "python main.py & python telegram_bot.py"]
+CMD ["python", "main.py", "uvicorn.run", "0.0.0.0:8000"]
 
