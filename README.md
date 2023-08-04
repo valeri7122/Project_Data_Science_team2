@@ -61,10 +61,10 @@ http://localhost:8000
 ## Результати
 
 Графік точності  
-![Image](https://github.com/SSP0d/source/blob/main/Accuracy.png)
+![Image](https://github.com/SSP0d/source/blob/main/Accuracy.jpg)
 
 Графік втрат  
-![Image](https://github.com/SSP0d/source/blob/main/Loss.png)  
+![Image](https://github.com/SSP0d/source/blob/main/loss.jpg)  
 
 Графік показує точність та втрати моделі на тренувальних, тестових та валідаційних даних протягом навчання.
 
