@@ -32,3 +32,4 @@ virtualenv-clone
 websocket-client
 websockets
 keras
+pyTelegramBotAPI
