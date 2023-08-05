@@ -1,0 +1,32 @@
+							<!--Головна сторінка сайту-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Convolutional Neural Network</title>	
+		<link rel="stylesheet" href="/static/styles/styles1.css">	
+	</head>
+	<body>
+		<p>
+			<audio controls loop>			
+				<source src="/static/audio/kalyna.mp3" type="audio/mpeg">
+				Ваш браузер не підтримує елемент audio.
+			</audio>
+		</p>
+			
+		<h1>Convolutional Neural Network</h1><br/>
+
+		<a href="https://t.me/PicRec_AI_bot" target="_blank"><h2>Telegram-bot</h2></a><br/>
+
+		<form action="/predict/image" enctype="multipart/form-data" method="post">
+			<label for="file">Choose File</label>
+			<input type="file" name="file">
+			<input type="submit" value="Classify">
+		</form><br/>	
+
+		<h1><img class="pos1" src="/static/images/main.png" alt="main"></h1>
+					
+	</body>
+</html>
