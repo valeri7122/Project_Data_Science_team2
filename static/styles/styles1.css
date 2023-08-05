@@ -1,0 +1,114 @@
+/* CSS-БЛОКИ */
+
+/* Аудио */
+#block1 {
+	position: relative;
+	margin-top: 10px;
+	background-color: #87CEEB;
+	padding: 0.1% 0.1% 0.1% 0.1%;
+	margin-left: 0.5%;
+}
+
+/* Заголовок */
+#block2 {
+	position: relative;
+	top: 1px;	
+	background-color: #87CEEB;
+
+	text-align: center;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+/* Телеграм */
+#block3 {
+	position: relative;
+	top: 20px;
+	background-color: #87CEEB;
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+/* Форма */
+#block4 {
+	position: relative;
+	top: 20px;
+	background-color: #87CEEB;
+	text-align: center;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+/* Картинка */
+#block5 {
+	position: relative;
+	top: 50px;
+	background-color: #87CEEB;
+	text-align: center;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+/* CSS-МАЛЮНКИ */
+.pos1 {
+	width: 870px;
+	height: 300px; 
+}
+
+/* CSS-РЯДКИ */
+h1 {
+	font-family: "League Gothic";
+	font-size: 300%;
+	color: #FFFF00;
+	text-align: center;
+	font-style: italic;
+	text-transform: uppercase;
+	white-space: nowrap;
+	line-height: 1%;
+	/* Параметри тіні */
+	text-shadow: 10px 10px 20px black, 0 0 1em #000066;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 140%;
+	color: blue;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+figure {
+	border: 1px solid #245488;
+	padding: 1px;
+	min-width: 1px;
+  }
+  
+  figcaption {
+	text-align: center;
+	background-color: #bac8d6;
+  }
+  
+  img {
+	width: 100%;
+	height: 100%;
+  } 
+
+
+/* CSS-ТЕКСТ */
+
+/* Колір фону сторінки */
+html, body {
+	background: #87CEEB;
+	width: 100%;
+	height: 100%;
+	margin: 1;
+	padding: 1;
+ }
+
+/* Шрифт */
+p { 
+	font-family: Arial , Helvetica, sans-serif;
+	font-size: 200%;
+	
+/* Відступ абзацу  */
+	text-indent: 5%;
+}
