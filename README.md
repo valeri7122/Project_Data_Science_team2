@@ -57,7 +57,9 @@ http://localhost:8000
 - Повнозв'язний шар з 256 нейронами та функцією активації ReLU.
 - Випадковий Dropout (0.2).
 - Повнозв'язний шар з 10 нейронами та функцією активації softmax для класифікації.
+
 #
+
 Згорткова нейронна мережа з методом донавчання має наступну архітектуру:
 
 - Згортковий шар з 32 фільтрами розміром (3, 3) та функцією активації ReLU.
@@ -76,7 +78,7 @@ http://localhost:8000
 ![Image](https://github.com/SSP0d/source/blob/main/Accuracy.jpeg)
 
 Графік втрат  
-![Image](https://github.com/SSP0d/source/blob/main/Loss.jpeg)  
+![Image](https://github.com/SSP0d/source/blob/main/Loss.jpeg)
 
 Результати роботи моделі на тестових даних
 ![Image](https://github.com/valeri7122/Project_Data_Science_team2/blob/main/model/VGG16_evaluation.jpg)
@@ -88,19 +90,19 @@ http://localhost:8000
 Даний проєкт є контейнеризованим в Docker. Ви можете побудувати контейнерний образ самостійно за допомогою команди:
 
 ```
-docker build -t Project_Data_Science_team2 .
+docker build -t your-dockerhub-username/your-image-name:tag .
 ```
 
 Або завантажити готовий образ з DockerHub:
 
 ```
-docker pull username/Project_Data_Science_team2
+docker pull sunriseuk/dsteamworkweb:final
 ```
 
 Для запуску контейнера:
 
 ```
-docker run -p 5000:5000 Project_Data_Science_team2
+docker run -p 8000:8000 sunriseuk/dsteamworkweb:final
 ```
 
 ## Telegram бот
@@ -145,7 +147,7 @@ LinkedIn: [Serhii Pidkopai](https://www.linkedin.com/in/serhii-pidkopai-1734b724
 **Микола Присташ**
 Mykola Prystash  
 GitHub: [Sunriseuk](https://github.com/Sunriseuk)  
-LinkedIn:
+LinkedIn: [Mykola Prystash] https://www.linkedin.com/in/mykola-prystash-5bb18b287/
 
 **Василь Глущенко**  
 GitHub: [Vasyl-Hlushchenko](https://github.com/Vasyl-Hlushchenko)  
