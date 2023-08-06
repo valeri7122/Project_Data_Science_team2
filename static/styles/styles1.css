@@ -50,3 +50,6 @@ html, body {
 form {
 	text-align: center;
 }
+.button-text-color {
+	-webkit-text-fill-color: rgb(255, 0, 0);
+}
