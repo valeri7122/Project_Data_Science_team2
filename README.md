@@ -109,12 +109,6 @@ docker run -p 8000:8000 sunriseuk/dsteamworkweb:final
 
 Для зручності використання додана можливість використання Telegram бота.
 
-Запустіть
-
-```
-python telegram_bot.py
-```
-
 Перейдіть за посиланням
 
 ```
@@ -122,6 +116,16 @@ https://t.me/PicRec_AI_bot
 ```
 
 Завантажте зображення та отримайте результат класиіфкації
+
+Також ви маєте можливість налаштувати ваш бот для роботи з моделью.  
+
+Для цого вкажіть API вашого бота у файлі congig.py
+
+Післяцого запустіть
+
+```
+python telegram_bot.py
+```
 
 ## Вкладення
 
@@ -147,7 +151,7 @@ LinkedIn: [Serhii Pidkopai](https://www.linkedin.com/in/serhii-pidkopai-1734b724
 **Микола Присташ**
 Mykola Prystash  
 GitHub: [Sunriseuk](https://github.com/Sunriseuk)  
-LinkedIn: [Mykola Prystash] https://www.linkedin.com/in/mykola-prystash-5bb18b287/
+LinkedIn: [Mykola Prystash](https://www.linkedin.com/in/mykola-prystash-5bb18b287/)
 
 **Василь Глущенко**  
 GitHub: [Vasyl-Hlushchenko](https://github.com/Vasyl-Hlushchenko)  
