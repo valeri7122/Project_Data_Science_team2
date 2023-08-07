@@ -75,10 +75,10 @@ http://localhost:8000
 ## Результати
 
 Графік точності  
-![Image](https://github.com/SSP0d/source/blob/main/Accuracy.jpeg)
+![Image](https://github.com/valeri7122/Project_Data_Science_team2/blob/main/model/accuracy.jpg))
 
 Графік втрат  
-![Image](https://github.com/SSP0d/source/blob/main/Loss.jpeg)
+![Image](https://github.com/valeri7122/Project_Data_Science_team2/blob/main/model/loss.jpg))
 
 Результати роботи моделі на тестових даних
 ![Image](https://github.com/valeri7122/Project_Data_Science_team2/blob/main/model/VGG16_evaluation.jpg)
