@@ -96,7 +96,7 @@ http://localhost:8000
 docker build -t your-dockerhub-username/your-image-name:tag .
 ```
 
-Або завантажити готовий образ з DockerHub:
+Або завантажити готовий образ з DockerHub який запускає WEB додаток:
 
 ```
 docker pull sunriseuk/dsteamworkweb:final
