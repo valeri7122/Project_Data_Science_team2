@@ -16,3 +16,6 @@ EXPOSE 8000
 
 # Запустимо наш застосунок у контейнері
 CMD ["sh", "-c", "python main.py"]
+# Прописати нижче вказану команду замість попередньої, для роботи telegram-бота, коли користувач пропише API у confige.py
+# CMD ["sh", "-c", "python main.py & python telegram_bot.py"]
+
